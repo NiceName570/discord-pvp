@@ -1,0 +1,16 @@
+{
+  "name": "discord-pvp",
+  "version": "1.0.0",
+  "description": "Blade Rite: a simultaneous-pick mind-game duel that lives in Discord",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy": "node src/deploy-commands.js",
+    "start": "node src/index.js",
+    "test": "node test/game.test.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
